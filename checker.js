@@ -34,7 +34,7 @@ function passwordIsOk(password){
 
     if (password.match(/[A-Z]/) == null && password.match(/[a-z]/) == null) throw("Password must contain atleast 1 Capital letter");
 
- //  if (password.match(/[0-9]/) == null) throw("Password must contain atleast one number");
+
 
     return true;
     }
